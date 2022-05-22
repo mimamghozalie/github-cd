@@ -3,6 +3,7 @@
 ### 1. Generate ssh
 
 ```bash
+cd ~/.ssh
 ssh-keygen -f naura -N ""
 ```
 
