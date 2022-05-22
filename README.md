@@ -4,17 +4,17 @@
 
 ```bash
 cd ~/.ssh
-ssh-keygen -f naura -N ""
+ssh-keygen -f chizu -N ""
 ```
 
-### 2. Insert pubkey to authorized_keys
+### 2. add pubkey to authorized_keys
 
 ```bash
-cat naura.pub >> authorized_keys
+cat chizu.pub >> authorized_keys
 ```
 
 ### 3. Copy private key to your github secret
 
 ```bash
-cat naura
+cat chizu
 ```
